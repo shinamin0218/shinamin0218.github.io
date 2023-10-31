@@ -1,0 +1,40 @@
+---
+title: "Making websites"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+# This is Shina's awesome website
+
+What if I add some text here...?
+
+![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+
+## Here's a subsection
+
+And here's some additional text ...
+
+
+```{r}
+rnorm(10)
+```
+
+## Links to other websites
+
+Let's link to useful tools for data science:
+
+* [Google](http://www.google.com)
+* [P8105](http://p8105.com)
+
+## Local image
+
+Fall pugs 
+![](images/pugs.jpeg)
+
+## Link to pae within the site
+
+[About me](about.html)
+
+
