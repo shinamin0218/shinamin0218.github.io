@@ -1,5 +1,5 @@
 ---
-title: "Making websites"
+title: "Welcome to Shina's website"
 output: 
   html_document:
     code_folding: hide
@@ -7,20 +7,10 @@ output:
     toc_float: true
 ---
 
-# This is Shina's awesome website
+# This is my awesome website
 Fall is here!! 
 ![](images/pugs.jpeg)
 
-
-
-## Here's a subsection
-
-And here's some additional text ...
-
-
-```{r}
-rnorm(10)
-```
 
 ## Links to other websites
 
