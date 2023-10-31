@@ -9,9 +9,6 @@ output:
 
 # This is Shina's awesome website
 
-What if I add some text here...?
-
-![](images/IMG_0496.JPG)
 
 
 
