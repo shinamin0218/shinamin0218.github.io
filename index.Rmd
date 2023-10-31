@@ -8,7 +8,8 @@ output:
 ---
 
 # This is Shina's awesome website
-
+Fall is here!! 
+![](images/pugs.jpeg)
 
 
 
@@ -28,10 +29,7 @@ Let's link to useful tools for data science:
 * [Google](http://www.google.com)
 * [P8105](http://p8105.com)
 
-## Local image
 
-Fall pugs 
-![](images/pugs.jpeg)
 
 ## Link to page within the site
 
