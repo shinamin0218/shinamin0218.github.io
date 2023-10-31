@@ -2,6 +2,7 @@
 title: "Making websites"
 output: 
   html_document:
+    code_folding: hide
     toc: true
     toc_float: true
 ---
@@ -10,7 +11,9 @@ output:
 
 What if I add some text here...?
 
-![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+![](images/IMG_0496.JPG)
+
+
 
 ## Here's a subsection
 
@@ -33,8 +36,22 @@ Let's link to useful tools for data science:
 Fall pugs 
 ![](images/pugs.jpeg)
 
-## Link to pae within the site
+## Link to page within the site
 
 [About me](about.html)
 
+
+## Quarterly Results {.tabset}
+
+### By Product
+
+This is my first tab and I can do stuff
+
+### By Region
+
+This is my second tab and it does other stuff
+
+## This is a new section
+
+and it's really great
 
