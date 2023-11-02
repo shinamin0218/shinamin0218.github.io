@@ -23,5 +23,5 @@ Let's link to useful tools for data science:
 
 ## Link to page within the site
 
-[About me](about.html)
+* [About me](about.html)
 
