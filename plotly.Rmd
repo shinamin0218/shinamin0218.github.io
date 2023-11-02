@@ -13,6 +13,7 @@ library(flexdashboard)
 library(tidyverse)
 library(p8105.datasets)
 library(plotly)
+library(viridis)
 data("instacart")
 ```
 
@@ -45,10 +46,26 @@ instacart %>%
 Column {data-width=350}
 -----------------------------------------------------------------------
 
+## Plotly Barchart about Count of orders by aisle
+```{r echo=FALSE}
+data("instacart")
+
+filtered_aisles = instacart %>%
+  group_by(aisle, department) %>%
+  summarise(item_count = n(), .groups = "drop") %>%
+  filter(item_count > 10000) %>%
+  arrange(item_count)
+
+plot_ly(data = filtered_aisles, x = ~aisle, y = ~item_count, color = ~department, type = "bar", colors = "viridis") %>%
+  layout(title = "Items Ordered Over 10000 times from Each Aisle",
+         xaxis = list(title = "Aisle Names"),
+         yaxis = list(title = "Number of Items Ordered"))
+
+```
 
 
-
-
+Column {data-width=350}
+-----------------------------------------------------------------------
 
 
 
