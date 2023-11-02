@@ -1,5 +1,5 @@
 ---
-title: "Plotly examples"
+title: "Dashboard"
 output: 
   flexdashboard::flex_dashboard:
     orientation: columns
@@ -16,15 +16,19 @@ library(plotly)
 data("instacart")
 ```
 
+
+
+
+
+
 Column {data-width=650}
 -----------------------------------------------------------------------
 
 ## Number of Snack Orders by Hour of the Day
-```{r}
+```{r echo=FALSE}
 data("instacart")
 
-snacks_instacart =
-  instacart %>%
+instacart %>%
   group_by(order_hour_of_day) %>%
   count(department) %>%
   plot_ly(x = ~order_hour_of_day, y = ~n,
