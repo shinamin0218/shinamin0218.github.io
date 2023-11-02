@@ -67,7 +67,7 @@ instacart %>%
     type = "box",
     color = ~department, colors = "viridis") %>%
   layout(
-    title = "Box Plot of Snack Orders by Department",
+    title = "Number of Snack Orders by Department",
     xaxis = list(title = "Department"),
     yaxis = list(title = "Number of Snack Orders")
   )
