@@ -7,7 +7,7 @@ output:
 ---
 
 
-***Creating a flexdashboard***
+**Creating a flexdashboard***
 ```{r include=FALSE}
 library(flexdashboard)
 library(tidyverse)
@@ -56,6 +56,8 @@ instacart %>%
 data("instacart")
 
 
+library(plotly)
+
 instacart %>%
   group_by(order_hour_of_day, department) %>%
   count() %>%
@@ -63,10 +65,9 @@ instacart %>%
     x = ~department,
     y = ~n,
     type = "box",
-    marker = list(color = ~department, colors = "viridis")
-  ) %>%
+    color = ~department, colors = "viridis") %>%
   layout(
-    title = "Number of Snack Orders by Department",
+    title = "Box Plot of Snack Orders by Department",
     xaxis = list(title = "Department"),
     yaxis = list(title = "Number of Snack Orders")
   )
