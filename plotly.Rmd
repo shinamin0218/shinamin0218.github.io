@@ -19,36 +19,9 @@ data("instacart")
 
 
 
-
-
-{data-width=250}
------------------------------------------------------------------------
-### Chart A
-
-```{r echo=FALSE}
-
-instacart %>%
-  group_by(order_hour_of_day, department) %>%
-  count() %>%
-  plot_ly(
-    x = ~order_hour_of_day,
-    y = ~n,
-    type = "scatter",
-    mode = "lines+markers",
-    color = ~department,
-    colors = "viridis"
-  ) %>%
-  layout(
-    title = "Number of Snack Orders by Hour of the Day",
-    xaxis = list(title = "Hour of the Day"),
-    yaxis = list(title = "Number of Snack Orders")
-  )
-
-```
-
 {data-width=550}
 -----------------------------------------------------------------------
-### Chart B
+### Chart A
 
 ```{r echo=FALSE}
 data("instacart")
@@ -72,7 +45,34 @@ instacart %>%
 
 
 
-Column {data-width=250}
+{data-width=350}
+-----------------------------------------------------------------------
+### Chart B
+
+```{r echo=FALSE}
+
+instacart %>%
+  group_by(order_hour_of_day, department) %>%
+  count() %>%
+  plot_ly(
+    x = ~order_hour_of_day,
+    y = ~n,
+    type = "scatter",
+    mode = "lines+markers",
+    color = ~department,
+    colors = "viridis"
+  ) %>%
+  layout(
+    title = "Number of Snack Orders by Hour of the Day",
+    xaxis = list(title = "Hour of the Day"),
+    yaxis = list(title = "Number of Snack Orders")
+  )
+
+```
+
+
+
+{data-width=350}
 -----------------------------------------------------------------------
 
 ### Chart C
