@@ -24,12 +24,14 @@ output:
 
 
 **University of Maryland, College Park, MD**
-<li>Bachelor of Science, Public Health: Family Science</li>
-<li>Graduation Date: July 2019</li>
+
+* Bachelor of Science, Public Health: Family Science
+* Graduation Date: July 2019</li>
 
 **Columbia University Mailman School of Public Health, New York, NY**
-<li>Master of Science, Epidemiology</li>
-<li>Expected Graduation Date: May 2025</li>
+
+* Master of Science, Epidemiology
+* Expected Graduation Date: May 2025
 
 
 --------------------------------------------------------------------------------
@@ -56,7 +58,8 @@ January 2019 to May 2019 25 Crescent Road Greenbelt, MD 20770
 --------------------------------------------------------------------------------
 
 **POSTER PRESENTATION**
-<li>Hasaeam Cho, Hanjoon Nho, Juncheol Lee, Sang Yeop Lee, Shina Min, Kyeong Sik Jin, Herbert P. Miller, Leslie Wilson, Stuart C. Feinstein, Cyrus R. Safinya, and Myung Chul Choi, Human Tau-Microtubule Phase Transition under Ionic Regulation, Poster presented at International Conference on Molecular Neurodegeneration; September 2022; Seoul</li>
+
+* Hasaeam Cho, Hanjoon Nho, Juncheol Lee, Sang Yeop Lee, Shina Min, Kyeong Sik Jin, Herbert P. Miller, Leslie Wilson, Stuart C. Feinstein, Cyrus R. Safinya, and Myung Chul Choi, Human Tau-Microtubule Phase Transition under Ionic Regulation, Poster presented at International Conference on Molecular Neurodegeneration; September 2022; Seoul
 
 
 --------------------------------------------------------------------------------
