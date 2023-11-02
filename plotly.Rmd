@@ -34,8 +34,7 @@ instacart %>%
   plot_ly(x = ~order_hour_of_day, y = ~n,
           type = "scatter",
           mode = "markers",
-          name = ~department,
-          color = ~n, colors = "viridis") %>%
+          name = ~department) %>%
   layout(title = "Number of Snack Orders by Hour of the Day",
          xaxis = list(title = "Hour of the Day"),
          yaxis = list(title = "Number of Snack Orders"))
