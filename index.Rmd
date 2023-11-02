@@ -7,8 +7,8 @@ output:
     toc_float: true
 ---
 
-# This is my awesome website
-Fall is here!! 
+**Fall is here!!**
+ 
 ![](images/pugs.jpeg)
 
 
