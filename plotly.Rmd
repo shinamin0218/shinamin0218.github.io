@@ -21,24 +21,57 @@ data("instacart")
 
 
 
+Column {data-width=350}
+-----------------------------------------------------------------------
+### Chart A
+
+```{r echo=FALSE}
+
+library(plotly)
+
+instacart %>%
+  group_by(order_hour_of_day, department) %>%
+  count() %>%
+  plot_ly(
+    x = ~order_hour_of_day,
+    y = ~n,
+    type = "scatter",
+    mode = "lines+markers",
+    color = ~department,
+    colors = "viridis"
+  ) %>%
+  layout(
+    title = "Number of Snack Orders by Hour of the Day",
+    xaxis = list(title = "Hour of the Day"),
+    yaxis = list(title = "Number of Snack Orders")
+  )
+
+```
 
 Column {data-width=650}
 -----------------------------------------------------------------------
+### Chart B
 
-## Number of Snack Orders by Hour of the Day
 ```{r echo=FALSE}
 data("instacart")
 
+
 instacart %>%
-  group_by(order_hour_of_day) %>%
-  count(department) %>%
-  plot_ly(x = ~order_hour_of_day, y = ~n,
-          type = "scatter",
-          mode = "markers",
-          name = ~department) %>%
-  layout(title = "Number of Snack Orders by Hour of the Day",
-         xaxis = list(title = "Hour of the Day"),
-         yaxis = list(title = "Number of Snack Orders"))
+  group_by(order_hour_of_day, department) %>%
+  count() %>%
+  plot_ly(
+    x = ~department,
+    y = ~n,
+    type = "box",
+    marker = list(color = ~department, colors = "viridis")
+  ) %>%
+  layout(
+    title = "Box Plot of Snack Orders by Department",
+    xaxis = list(title = "Department"),
+    yaxis = list(title = "Number of Snack Orders")
+  )
+
+
 ```
 
 
@@ -46,7 +79,8 @@ instacart %>%
 Column {data-width=350}
 -----------------------------------------------------------------------
 
-## Plotly Barchart about Count of orders by aisle
+### Chart C
+
 ```{r echo=FALSE}
 data("instacart")
 
@@ -63,9 +97,6 @@ plot_ly(data = filtered_aisles, x = ~aisle, y = ~item_count, color = ~department
 
 ```
 
-
-Column {data-width=350}
------------------------------------------------------------------------
 
 
 
