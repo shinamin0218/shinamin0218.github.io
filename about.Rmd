@@ -41,7 +41,7 @@ output:
 ## WORK EXPERIENCE
 
 **Research assistant – Korean Advanced Institute of Science and Technology**
-291 Daehak-ro, Yuseong-gu, Daejeon, 34141, Korea
+: 291 Daehak-ro, Yuseong-gu, Daejeon, 34141, Korea
 : August 2020 to July 2023
 
 * Provide technical support on the characterization and production of preclinical recombinant proteins
@@ -50,7 +50,8 @@ output:
 * Provide ready access to all experimental data for the faculty researcher and supervisor
 
 **Internship – Greenbelt Cares**
-January 2019 to May 2019 25 Crescent Road Greenbelt, MD 20770
+: 25 Crescent Road Greenbelt, MD 20770
+: January 2019 to May 2019 
 
 * Collaborated with individuals of multicultural and socio-economic diversity students to complete homework assignments, identify lagging skills, and correct weaknesses
 * Taught students high school curricula in preparation for taking the GED test
