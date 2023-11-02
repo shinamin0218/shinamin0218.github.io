@@ -6,7 +6,6 @@ output:
     toc_float: true
 ---
 
-# This page has information about me
 
 
 
@@ -18,4 +17,73 @@ output:
 <img src="images/mcchoi_lab.jpeg" style="width:70%">
 
 
+
+# EDUCATION
+
+--------------------------------------------------------------------------------
+
+
+**University of Maryland, College Park, MD**
+<li>Bachelor of Science, Public Health: Family Science</li>
+<li>Graduation Date: July 2019</li>
+
+**Columbia University Mailman School of Public Health, New York, NY**
+<li>Master of Science, Epidemiology</li>
+<li>Expected Graduation Date: May 2025</li>
+
+
+--------------------------------------------------------------------------------
+
+## WORK EXPERIENCE
+
+**Research assistant – Korean Advanced Institute of Science and Technology**
+291 Daehak-ro, Yuseong-gu, Daejeon, 34141, Korea
+: August 2020 to July 2023
+
+* Provide technical support on the characterization and production of preclinical recombinant proteins
+* Implement the purification of Tau recombinant proteins and perform quality assessments
+* Responsible for the design, execution, and documentation of the protein purification activities, including new method development and optimization 
+* Provide ready access to all experimental data for the faculty researcher and supervisor
+
+**Internship – Greenbelt Cares**
+January 2019 to May 2019 25 Crescent Road Greenbelt, MD 20770
+
+* Collaborated with individuals of multicultural and socio-economic diversity students to complete homework assignments, identify lagging skills, and correct weaknesses
+* Taught students high school curricula in preparation for taking the GED test
+* Reviewed math, English skills, critical thinking, and analytical skills in social studies based on students’ needs and assessment
+* Used personalized learning plans to guide students to a deeper understanding of course material and learning styles
+
+--------------------------------------------------------------------------------
+
+**POSTER PRESENTATION**
+<li>Hasaeam Cho, Hanjoon Nho, Juncheol Lee, Sang Yeop Lee, Shina Min, Kyeong Sik Jin, Herbert P. Miller, Leslie Wilson, Stuart C. Feinstein, Cyrus R. Safinya, and Myung Chul Choi, Human Tau-Microtubule Phase Transition under Ionic Regulation, Poster presented at International Conference on Molecular Neurodegeneration; September 2022; Seoul</li>
+
+
+--------------------------------------------------------------------------------
+
+## LEADERSHIP EXPERIENCE & COMMUNITY INVOLVEMENT
+
+**Fundraising Chair, Miles for Smiles, University of Maryland**
+: September 2015 to May 2017
+
+* Developed fundraising events, arranged sponsorships, and communicated with local dentists for potential donations.
+* Responsible for organizing fundraising projects and focusing on raising funds needed to meet the budget
+Event Coordinator	   								          June 2015 to September 2016
+Korean Engineering and Science Student Association, University of Maryland
+* Created and maintained event expenditures, budgets, and timelines by utilizing internal databases
+* Managed administrative logistics of events planning, event booking, and event promotions
+
+**Terps for Change**
+Spring semester 2016
+
+*	Volunteered for after-school tutoring at Northwestern high school students
+* Visited a local site to perform hands-on community service once a week
+* Participated in weekly facilitated dialogues due to engage more deeply with and better understand systemic inequities
+
+--------------------------------------------------------------------------------
+
+## SKILLS
+* Bilingual: Fluent in Korean and English
+* CPR certified: as of April 2019
+* Computer Proficiencies: Microsoft office, Adobe Photoshop, Python, R
 
