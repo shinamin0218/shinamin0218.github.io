@@ -7,7 +7,7 @@ output:
 ---
 
 
-## Creating a flexdashboard
+***Creating a flexdashboard***
 ```{r include=FALSE}
 library(flexdashboard)
 library(tidyverse)
@@ -21,7 +21,7 @@ data("instacart")
 
 
 
-Column {data-width=350}
+{data-width=650}
 -----------------------------------------------------------------------
 ### Chart A
 
@@ -48,7 +48,7 @@ instacart %>%
 
 ```
 
-Column {data-width=650}
+{data-width=350}
 -----------------------------------------------------------------------
 ### Chart B
 
@@ -66,7 +66,7 @@ instacart %>%
     marker = list(color = ~department, colors = "viridis")
   ) %>%
   layout(
-    title = "Box Plot of Snack Orders by Department",
+    title = "Number of Snack Orders by Department",
     xaxis = list(title = "Department"),
     yaxis = list(title = "Number of Snack Orders")
   )
@@ -76,7 +76,7 @@ instacart %>%
 
 
 
-Column {data-width=350}
+Column {data-width=650}
 -----------------------------------------------------------------------
 
 ### Chart C
