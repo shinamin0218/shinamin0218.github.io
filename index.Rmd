@@ -12,6 +12,10 @@ output:
 ![](images/pugs.jpeg)
 
 
+<img src="images/profile_pic.jpeg" style="width:75%">
+
+* Hello fellow Public Health students~ my name is Shina Min and I am currently pursuing a Master's degree in Epidemiology at Columbia University with a strong interest in the fields of aging and Alzheimer's disease
+
 ## Links to other websites
 
 Let's link to useful tools for data science:
@@ -23,4 +27,4 @@ Let's link to useful tools for data science:
 ## Link to page within the site
 
 * [About me](about.html)
-
+* [Linkedin](https://www.linkedin.com/in/shina-min-3b7b58113/) 
